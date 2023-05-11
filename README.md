@@ -33,12 +33,18 @@ I sometimes put stuff on [my blog](https://codex-7.gitbook.io/). Existing resear
 * [SilentMoonWalk - a thread stack spoofer](https://github.com/klezVirus/SilentMoonwalk)
 * [CallStackMasker](https://github.com/Cobalt-Strike/CallStackMasker)
 
-# Rootkits
-* [Bootlicker - UEFI rootkit](https://github.com/realoriginal/bootlicker)
+# Rootkit dev resources
 * [Niddhogg - kernel driver rootkit](https://github.com/Idov31/Nidhogg)
-  
-# VBA
-* [VBA: resolving exports in runtime without NtQueryInformationProcess or GetProcAddress](https://adepts.of0x.cc/vba-exports-runtime/)
+* [Lord Of The Ring0 - Part 1 | Introduction - Ido Veltzman - Security Blog (idov31.github.io)](https://idov31.github.io/2022/07/14/lord-of-the-ring0-p1.html)
+* [Lord Of The Ring0 - Part 2 | A tale of routines, IOCTLs and IRPs - Ido Veltzman - Security Blog (idov31.github.io)](https://idov31.github.io/2022/08/04/lord-of-the-ring0-p2.html)
+* [Lord Of The Ring0 - Part 3 | Sailing to the land of the user (and debugging the ship) - Ido Veltzman - Security Blog (idov31.github.io)](https://idov31.github.io/2022/10/30/lord-of-the-ring0-p3.html)
+* [Lord Of The Ring0 - Part 4 | The call back home - Ido Veltzman - Security Blog (idov31.github.io)](https://idov31.github.io/2023/02/24/lord-of-the-ring0-p4.html)
+* The Rootkit Arsenal: Escape and Evasion in the Dark Corners of the System
+* [ring-0f-fire-rootkits-and-dkom](http://c0decstuff.blogspot.com/2011/01/ring-0f-fire-rootkits-and-dkom.html)
+* [fantastic-rootkits-and-where-to-find-them-part-1](https://www.cyberark.com/resources/threat-research-blog/fantastic-rootkits-and-where-to-find-them-part-1)
+* [rootkit technical doc by bytecode77](https://docs.bytecode77.com/r77-rootkit/Technical%20Documentation.pdf)
+* [spectre](https://github.com/D4stiny/spectre)
+
 # Direct syscalls
 * [SysWhispers is dead, long live SysWhispers!](https://klezvirus.github.io/RedTeaming/AV_Evasion/NoSysWhisper/)
 * [Combining Direct System Calls and sRDI to bypass AV/EDR](https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/)
