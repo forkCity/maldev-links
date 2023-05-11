@@ -63,6 +63,7 @@ I sometimes put stuff on [my blog](https://codex-7.gitbook.io/). Existing resear
 
 
 ## General evasion/Execution techs
+
 * [Operational challenges in offensive C - SpectreOps](https://posts.specterops.io/operational-challenges-in-offensive-c-355bd232a200)
 * [WORKSHOP // A journey into malicious code tradecraft for Windows // Silvio La Porta and Antonio Villani](https://vimeo.com/727453909) 
 * [Python library for ML evasion and detection etc](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
@@ -97,98 +98,6 @@ I sometimes put stuff on [my blog](https://codex-7.gitbook.io/). Existing resear
 * [Black Hills Infosec - Coercion and relays](https://www.youtube.com/watch?v=b0lLxLJKaRs)
 * [Pocket Guide to OPSEC in Adversary Emulation](https://ristbs.github.io/2023/02/08/your-pocket-guide-to-opsec-in-adversary-emulation.html)
 
-## Campaign/Operation analysis
-
-* [Observations from the stellarparticle-campaign](https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/)
-* [Ukraine Cyber Operations](https://github.com/curated-intel/Ukraine-Cyber-Operations/)
-* [Russian State-Sponsored Cyber Actors Gain Network Access by Exploiting Default Multifactor Authentication Protocols and “PrintNightmare” Vulnerability #threatintel report](https://www.cisa.gov/uscert/ncas/alerts/aa22-074a)
-* [Post auth RCE based in malicious LUA plugin script upload SCADA controllers located in Russia](https://medium.com/@bertinjoseb/post-auth-rce-based-in-malicious-lua-plugin-script-upload-scada-controllers-located-in-russia-57044425ac38)
-* [Does This Look Infected? A Summary of APT41 Targeting U.S. State Governments](https://www.mandiant.com/resources/apt41-us-state-governments)
-
-## Phishing
-
-* [Revisiting Phishing Simulations](https://posts.specterops.io/revisiting-phishing-simulations-94d9cd460934)
-* [Phishing page detection via learning classifiers from page layout feature](https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/s13638-019-1361-0)
-* [List of crowd-sourced phishing sites. Some are still active](https://phishtank.com)
-* [mrd0x - phishing with spoofed cloud attachments](https://mrd0x.com/phishing-o365-spoofed-cloud-attachments/)
-* [mrd0x - teams abuse](https://mrd0x.com/microsoft-teams-abuse/)
-* [mrd0x - phishing with .ics](https://mrd0x.com/spoofing-calendar-invites-using-ics-files/)
-* [Phishing with Github](https://www.form3.tech/engineering/content/phishing-github)
-
-## Active Directory
-
-* [A comprehensive guide on relaying](https://www.trustedsec.com/blog/a-comprehensive-guide-on-relaying-anno-2022/)
-* [Automating a Red Team Lab (Part 1): Domain Creation](https://nickzero.co.uk/automating-a-red-team-lab/)
-* [Automating a Red Team Lab (Part 2): Monitoring and Logging](https://nickzero.co.uk/automating-a-red-team-lab-part-2/)
-* [Announcing Azure in BloodHound Enterprise](https://posts.specterops.io/announcing-azure-in-bloodhound-enterprise-b1a900557cda)
-* [AD Trusts](https://medium.com/sse-blog/active-directory-spotlight-trusts-part-2-operational-guidance-ada54ac3bf13) 
-* [Learn AD basics](https://www.udemy.com/course/active-directory/)
-* [Diamond attacks](https://www.trustedsec.com/blog/a-diamond-in-the-ruff/)
-* [Certified Pre Owned (ADCS Abuse)](https://posts.specterops.io/certified-pre-owned-d95910965cd2)
-
-## Initial Access
-
-* [How to Deliver Payloads in an Enterprise Attack with Steve Borosh](https://www.youtube.com/watch?v=vVueJfWmpGc)
-
-
-## Persistence
-* [SharpEventPersist](https://github.com/improsec/SharpEventPersist)
-* [Persistence – Notepad++ Plugins](https://pentestlab.blog/2022/02/14/persistence-notepad-plugins/)
-
-## OSINT
-
-* [Nrich: Cli tool to quickly analyze all IPs in a file and see which ones have open ports/ vulnerabilities](https://gitlab.com/shodan-public/nrich)
-
-## Tools
-
-* [in memory lsass dumper using syscalls](https://github.com/helpsystems/nanodump)
-* [Walter Planner: Attack path planner](https://jackson_t.gitlab.io/walter-planner/)
-* [NimPackt-v1: A Nim-based packer for .NET executables and raw shellcode](https://github.com/chvancooten/NimPackt-v1)
-* [PackMyPayload: Payload Containerization](https://github.com/mgeeky/PackMyPayload)
-* [TymSpecial Shellcode Loader](https://github.com/ChadMotivation/TymSpecial)
-* [KrbRelay](https://github.com/cube0x0/KrbRelay)
-* [BadAssMacros: generate malicious macros](https://github.com/Inf0secRabbit/BadAssMacros)
-* [PurplePanda: Identify privilege escalation paths and dangerous permissions](https://github.com/carlospolop/PurplePanda)
-* [0d1n: a tool for automating customized attacks against web applications](https://github.com/CoolerVoid/0d1n)
-* [Inceptor: a tool which can help to automate AV/EDR bypass](https://github.com/klezVirus/inceptor)
-* [Injector: Complete Arsenal of Memory injection and other techniques for red-teaming in Windows](https://github.com/0xDivyanshu/Injector)
-* [Pixload: Set of tools for creating/injecting payload into images](https://github.com/chinarulezzz/pixload)
-* [Cloak: Generate python payloads via msfvenom and inject them into python scripts](https://github.com/s0md3v/Cloak)
-* [SNOWCRASH: Create a scripts that can be launched on both Linux and Windows machines](https://github.com/redcode-labs/SNOWCRASH)
-* [D-Generate - syscall tracing](https://twitter.com/jonaslyk/status/1568450498579111936?lang=en)
-
-## Various contents
-* [Myths-About-External-C2](https://xret2pwn.github.io/Myths-About-External-C2/)
-* [Running shellcode in electron](https://barbellsandrootshells.com/electron-shellcode-loader)
-* [Cause & Effect…ive C2](https://www.ctus.io/2021/06/29/cause-effect-ive-c2/)
-* [Eye of the TIBER - A blend of red team trends](https://www.youtube.com/watch?v=qyo6Rmy2odI)
-* [Useful Libraries for Malware Development](https://captmeelo.com/redteam/maldev/2022/02/16/libraries-for-maldev.html)
-* [Windows EVTX Samples [200 EVTX examples]](https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES)
-* [Russian Cyber Attack Escalation in Ukraine](https://www.youtube.com/watch?v=kO7LlnvE5Rs)
-* [A Study on Blue Team’s OPSEC Failures](http://essay.utwente.nl/84945/1/__ad.utwente.nl_Org_BA_Bibliotheek_Documentfiles_Afstudeerverslagen__Verwerkt_caretta_crichlow_MA_eemcs.pdf)
-* [Dive into the MITRE Engage™ Official Release](https://medium.com/mitre-engage/dive-into-the-mitre-engage-official-release-731504542924)
-* [Conti leaked chats](https://github.com/tsale/translated_conti_leaked_comms)
-* [Conti source code](https://github.com/Cracked5pider/conti_locker)
-* [Attack Flow — Beyond Atomic Behaviors](https://medium.com/mitre-engenuity/attack-flow-beyond-atomic-behaviors-c646675cc793)
-* [Offensive API Hooking](https://ilankalendarov.github.io/posts/offensive-hooking/)
-* [VBA and Function Pointers](https://secureyourit.co.uk/wp/2020/11/28/vbafunctionpointers/)
-* [MalAPI: List of Windows Apis classified by usage in malware dev](https://malapi.io)
-* [Guest Diary (Etay Nir) Kernel Hooking Basics](https://isc.sans.edu/forums/diary/Guest+Diary+Etay+Nir+Kernel+Hooking+Basics/23155/)
-* [BOF2shellcode — a tutorial converting a stand-alone BOF loader into shellcode](https://medium.com/falconforce/bof2shellcode-a-tutorial-converting-a-stand-alone-bof-loader-into-shellcode-6369aa518548)
-* [Cobalt Strike User Defined Reflective Loader (UDRL)](https://github.com/kyleavery/TitanLdr/tree/heapencrypt)
-* [DynamicWrapperEx – Windows API Invocation from Windows Script Host](https://www.contextis.com/en/blog/dynamicwrapperex-windows-api-invocation-from-windows-script-host?utm_source=linkedin&utm_medium=HootsuiteCTXIS&utm_campaign=649c522f-1883-4b51-8712-a299c4a9ac31)
-* [Cracked5pider/ReflectedDll.c: Get output from injected reflected dll](https://gist.github.com/Cracked5pider/8f6196b4da16368318a75ff3b1836195)
-* [Nt/Zw Mapping from Kernel32](https://github.com/EspressoCake/NativeFunctionStaticMap/blob/main/Native_API_Resolve.pdf)
-* [DEF CON 29 - Ben Kurtz - Offensive Golang Bonanza: Writing Golang Malware](https://www.youtube.com/watch?v=3RQb05ITSyk)
-* [A novel technique to communicate between threads using the standard ETHREAD structure](https://github.com/CodeXTF2/dearg-thread-ipc-stealth)
-* [VX-Underground Black Mass 2022](https://papers.vx-underground.org/papers/Other/VXUG%20Zines/Black%20Mass%20Halloween%202022.pdf)
-
-## Azure related:
-
-* [Cloud Adoption Framework for Azure Terraform landing zones](https://github.com/Azure/caf-terraform-landingzones)
-* [March 2022 Update Release Notes: Cloud Adoption Framework for Azure Terraform landing zones](https://www.youtube.com/watch?v=B2CYOIAFt44)
-* [Cloud Adoption Framework for Azure Terraform landing zones Documentation](https://aztfmod.github.io/documentation/)
-* [Cloud Adoption Framework for Azure - Landing zones on Terraform - Rover](https://github.com/aztfmod/rover)
 
 
 ## C2 related:
@@ -200,10 +109,4 @@ I sometimes put stuff on [my blog](https://codex-7.gitbook.io/). Existing resear
 * [C2 matrix - all your c2 needs here](https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc/edit#gid=0)
 
 
-## Blue Team - how we get burnt
-
-* [72-page eBook describing Endgame’s solution to hunting advanced cyberthreats](https://cyber-edge.com/resources/the-endgame-guide-to-threat-hunting/)
-* [TiEtwAgent – ETW-based process injection detection (cant unhook from userland)](https://securityonline.info/tietwagent-etw-based-process-injection-detection/)
-* [Detection Engineering](https://www.unh4ck.com/detection-engineering-dimensions)
-* [How I met your beacon (MDSec x33fcon talk)](https://www.mdsec.co.uk/2022/07/part-1-how-i-met-your-beacon-overview/)
 
